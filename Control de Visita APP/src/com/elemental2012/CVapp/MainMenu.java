@@ -29,7 +29,7 @@ public class MainMenu extends ListActivity {
 		
 	switch (position){
 	case 0:
-		strOpcion = "creacion";
+		strOpcion = "Creacion";
 		break;
 	case 1:
 		strOpcion = "edicion";
@@ -46,7 +46,7 @@ public class MainMenu extends ListActivity {
 	}
 	
 	System.out.println(position);
-	System.out.println("com.elemental2012.CVapp."+strOpcion);
+	System.out.println("com.elemental2012.CVapp." + strOpcion);
 	
 	if (strOpcion != "Nada"){
 	try{
